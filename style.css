@@ -181,3 +181,116 @@ body {
     padding-top: 25px;
 }
 
+/*  section 3 slider */
+
+.slider-our-friends {
+    background: #F6F6F6;
+    height: 877px;
+    position: relative;
+}
+
+.slider-our-friends-container {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 60px;
+    margin-left: 145px;
+}
+
+.slider-our-friends-element1 {
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+    margin-right: 90px;
+}
+
+.slider-our-friends-element2 {
+    background-color: #FAFAFA;
+    width: 270px;
+    border-radius: 9px;
+    margin-right: 90px;
+}
+
+.slider-our-friends-element3 {
+    background-color: #FAFAFA;
+    width: 270px;
+    border-radius: 9px;
+} 
+
+.text-our-friends {
+    font-size: 35px;
+    font-family: 'Georgia';
+    color: #545454;
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: 0.06em;
+    line-height: 1.3em;
+}
+
+.button-arrow-left-slider {
+    height: 52px;
+    border: none;
+    background-color: #F6F6F6;
+    margin-top: 190px;
+    cursor: pointer;
+    
+    position: absolute;
+    left: 40px;
+}
+
+.button-arrow-right-slider {
+    height: 52px;
+    border: none;
+    background-color: #F6F6F6;
+    margin-top: 190px;
+    cursor: pointer;
+    
+    padding-left: 53px;
+}
+
+.caption-katrine {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 23px; */
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-left: 94px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.button-slider1 {
+    border: 2px solid;
+    width: 187px;
+    height: 52px;
+    border-color: #F1CDB3;
+    border-radius: 29px;
+    background-color: #FAFAFA;
+    margin-left: 40px;
+    cursor: pointer;
+
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.button-slider-get-to-know {
+    width: 261px;
+    height: 52px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+
+    margin-left: 510px;
+    margin-top: 60px;
+
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
