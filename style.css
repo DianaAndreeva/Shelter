@@ -348,4 +348,104 @@ body {
 
     color: #545454;
 }
+/* SECTION 5 */
+
+.donation-section {
+    /* height: 462px; */
+    height: 462px;
+    background-color: #F6F6F6;
+    /* display: flex;
+    align-content: center; */
+}
+
+.donation-wrapper {
+    display: flex;
+    padding-top: 80px;
+    align-content: center;
+    padding-left: 216px;
+}
+
+.img-donation-dog {
+    height: 261px;
+    padding-top: 17px;
+    padding-right: 30px;
+}
+
+
+/* .donation-container {
+    
+} */
+
+.donation-text-you-can {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-bottom: 20px;
+}
+
+.donation-text-name-bank {
+    font-family: 'Georgia';
+    font-size: 15px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    line-height: 110%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-bottom: 20px;
+}
+
+.donation-legal-information {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+
+    padding-top: 20px;
+}
+
+.input-container {
+    position: relative;
+    width: 349px;
+    height: 43px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px 10px 10px 59px;
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    font-size: 16px;
+    background: #F1CDB3;
+    border: none;
+}
+
+.input-icon {
+    position: absolute;
+    top: 45%;
+    width: 60px;
+    transform: translateY(-50%);
+    height: 20px;
+} 
+
+input[type="text"]::placeholder {
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
 
