@@ -137,3 +137,47 @@ body {
     padding-top: 180px;
     padding-left: 75px;
 }
+
+/* SECTION 2 */
+
+.sectoin2-img {
+    margin-left: 215px;
+    margin-top: 80px;
+}
+
+.about-the-shelter {
+    background-color: #fff;
+    height: 588px;
+}
+
+.about-the-shelter-container {
+    display: flex;
+}
+
+.text-section2 {
+    margin-top: 95px;
+    padding-left: 120px;
+}
+
+.title-about {
+    font-family: 'Georgia';
+    font-size: 35px;
+    color: #545454;
+    line-height: 1.3em;
+    letter-spacing: 0.06em;
+}
+
+.text-currently {
+    font-family: 'Arial';
+    font-size: 15px;
+    line-height: 1.6em;
+    padding-top: 25px;
+}
+
+.text-we-feed {
+    font-family: 'Arial';
+    font-size: 15px;
+    line-height: 1.6em;
+    padding-top: 25px;
+}
+
