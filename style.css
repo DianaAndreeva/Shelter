@@ -294,3 +294,58 @@ body {
     line-height: 130%;
     letter-spacing: 0.06em;
 }
+
+/* SECTION 4 */
+
+.how-help-section {
+    /* height: 611px; */
+    margin-top: 80px;
+}
+
+.how-help-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 27px;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.card-how-help {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 113px;
+    margin: 27.5px 59.5px;
+    
+
+}
+
+.rrrr {
+    text-align: center;
+}
+ 
+
+.text-how-help {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+
+.caption-cards-how-help {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    color: #545454;
+}
+
