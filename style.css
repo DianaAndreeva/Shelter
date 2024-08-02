@@ -449,3 +449,129 @@ input[type="text"]::placeholder {
     letter-spacing: 0.06em;
 }
 
+/* FOOTER */
+
+.footer {
+    background: url(/Shelter/assets/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    /* display: flex;
+    justify-content: center; */
+    height: 350px;
+}
+
+.footer-container {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.title-first-footer {
+    font-family: 'Georgia';
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    line-height: 130%;
+    color: #fff;
+
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+.location-container-footer {
+    padding-left: 160px;
+    padding-right: 200px;
+
+}
+
+.title-second-footer {
+    font-family: 'Georgia';
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    line-height: 130%;
+    color: #fff;
+
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+.link-email-footer {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    color: #F1CDB3;
+    font-family: 'Georgia';
+
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+    position: absolute;
+    padding-left: 20px;
+}
+
+.link-phone-footer {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    color: #F1CDB3;
+    font-family: 'Georgia';
+
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+    position: absolute;
+    padding-left: 20px;
+}
+
+.link-location-one-footer {
+    width: 260px;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    color: #F1CDB3;
+    font-family: 'Georgia';
+
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+    position: absolute;
+    margin-left: 20px;
+
+    /* cannot put text up it is not centered */
+}
+
+
+.link-location-two-footer {
+    width: 260px;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    color: #F1CDB3; 
+    font-family: 'Georgia';
+
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+    position: absolute;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.link-block-one {
+    position: relative;
+}
+
+.link-block-two {
+    position: relative;
+    margin-top: 43px;
+}
+
+.link-block-three {
+    position: relative;
+}
+
+.link-block-four {
+    margin-top: 35px;
+    position: relative;
+}
