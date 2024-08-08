@@ -5,13 +5,14 @@
 }
 
 body {
+  max-width: 1280px;
   margin: 0 auto;
 }
 
 /* HEADER */
 
 .wrapper {
-  width: 1280px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -26,6 +27,7 @@ body {
 .header-container {
   display: flex;
   padding: 30px 40px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -45,15 +47,17 @@ body {
 }
 
 .nav {
-  padding-left: 539px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 443px;
 }
 
 .nav-link {
   text-decoration: none;
   color: #fff;
-  margin-left: 34px;
+  /* margin-left: 34px; */
+
   font-family: 'Arial';
   font-size: 15px;
   cursor: pointer;
@@ -80,6 +84,18 @@ body {
   background-color: #F1CDB3;
   height: 3px;
 }
+
+/* media for header */
+
+@media (max-width: 1280px) {
+  body, .wrapper {
+    max-width: 1280px;
+  }
+  .header-container {
+    min-width: 768px;
+  }
+}
+
 
 /* main */
 
@@ -138,6 +154,27 @@ body {
   padding-left: 75px;
 }
 
+@media (max-width: 1280px) {
+  .not-only-container {
+    height: 1165px;
+    flex-direction: column;
+    padding-top: 85px;
+    padding-right: 78px;
+  }
+
+  .button-section1 {
+    margin-left: 125px;
+  }
+
+  .puppy-not-only {
+    padding-top: 0;
+    padding-left: 0;
+    width: 717px;
+    padding-top: 140px;
+    padding-left: 150px;
+  }
+}
+
 /* SECTION 2 */
 
 .sectoin2-img {
@@ -181,6 +218,10 @@ body {
   padding-top: 25px;
 }
 
+@media (max-width: 1280px) {
+
+}
+
 /*  section 3 slider */
 
 .slider-our-friends {
@@ -191,7 +232,7 @@ body {
 
 .slider-our-friends-container {
   display: flex;
-  /* justify-content: center; */
+
   margin-top: 60px;
   margin-left: 145px;
 }
@@ -252,7 +293,7 @@ body {
   font-family: 'Georgia';
   font-weight: 400;
   font-size: 20px;
-  /* line-height: 23px; */
+
   letter-spacing: 0.06em;
   color: #545454;
   padding-left: 94px;
@@ -298,7 +339,6 @@ body {
 /* SECTION 4 */
 
 .how-help-section {
-  /* height: 611px; */
   margin-top: 80px;
 }
 
@@ -359,11 +399,8 @@ body {
 /* SECTION 5 */
 
 .donation-section {
-  /* height: 462px; */
   height: 462px;
   background-color: #F6F6F6;
-  /* display: flex;
-    align-content: center; */
 }
 
 .donation-wrapper {
